@@ -1,0 +1,100 @@
+body {
+  <--! background-color: rgb(69, 72, 73);
+  -->
+  border: 8px solid black;
+  padding: 8px;
+  margin: 8px;
+  background-attachment: fixed;
+  background-image: url("C:\\Users\\mamor_000\\Documents\\GitHub\\amoresboi.github.io\\images\\dean-hayton-136567.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#sidebar {
+  float: left;
+  width: 10%;
+
+}
+
+#content {
+  float: left;
+  width: 90%;
+}
+
+.sidebarHeaders {
+  color: rgb(229, 177, 34);
+  font-size: 25px;
+  text-align: center;
+  font-family: Palatino;
+  border: 5px solid black;
+}
+
+h1 {
+  color: rgb(229, 177, 34);
+  text-align: center;
+  font-family: Palatino;
+}
+
+.pHeaders {
+  color: rgb(229, 177, 34);
+  font-family: Palatino;
+}
+
+.pSubHeaders {
+  color: rgb(176, 102, 215);
+  font-family: Palatino;
+}
+
+p {
+  color: rgb(222, 228, 232);
+  font-family: Palatino;
+  font-size: 18px;
+  align-content: center;
+}
+
+#projects {
+  border: 1px solid #ddd;
+  padding: 3px;
+  border-collapse: collapse;
+  color: rgb(222, 228, 232);
+  font-family: Palatino;
+  font-size: 18px;
+  margin-bottom: 100px;
+}
+
+#projects th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  color: white;
+}
+
+#projects td, #projects th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#projects tr:hover {
+  background-color: rgba(0, 0, 0, 0.09);
+}
+
+ol, ul {
+  color: rgb(222, 228, 232);
+  font-family: Palatino;
+  font-size: 18px;
+}
+
+#profilePic {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 200px;
+  width: 20%;
+  box-shadow: 7px 7px 8px black;
+}
+
+#betamoreLogo {
+  width: 150px;
+  height: 70px;
+  box-shadow: 4px 4px 7px black;
+}
