@@ -1,11 +1,10 @@
 body {
   <--! background-color: rgb(69, 72, 73);
-  -->
-  border: 8px solid black;
+  -->border: 8px solid black;
   padding: 8px;
   margin: 8px;
   background-attachment: fixed;
-  background-image: url("dean-hayton-136567.jpg");
+  background-image: url("../images/dean-hayton-136567.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -14,7 +13,6 @@ body {
 #sidebar {
   float: left;
   width: 10%;
-
 }
 
 #content {
