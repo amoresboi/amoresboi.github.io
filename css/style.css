@@ -4,7 +4,7 @@ body {
   padding: 8px;
   margin: 8px;
   background-attachment: fixed;
-  background-image: url("/images/dean-hayton-136567.jpg");
+  background-image: url("../images/dean-hayton-136567.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -12,20 +12,20 @@ body {
 
 #sidebar {
   float: left;
-  width: 10%;
+  width: 20%;
 }
 
 #content {
-  float: left;
+  clear: top;
   width: 90%;
 }
 
 .sidebarHeaders {
   color: rgb(229, 177, 34);
-  font-size: 25px;
+  /*font-size: 25px;*/
   text-align: center;
   font-family: Palatino;
-  border: 5px solid black;
+  /*border: 5px solid black;*/
 }
 
 h1 {
@@ -47,7 +47,7 @@ h1 {
 p {
   color: rgb(222, 228, 232);
   font-family: Palatino;
-  font-size: 18px;
+  /*font-size: 18px;*/
   align-content: center;
 }
 
@@ -57,7 +57,7 @@ p {
   border-collapse: collapse;
   color: rgb(222, 228, 232);
   font-family: Palatino;
-  font-size: 18px;
+  /*font-size: 18px;*/
   margin-bottom: 100px;
 }
 
@@ -80,13 +80,13 @@ p {
 ol, ul {
   color: rgb(222, 228, 232);
   font-family: Palatino;
-  font-size: 18px;
+  /*font-size: 18px;*/
 }
 
 #profilePic {
   display: block;
   margin: 0 auto;
-  margin-bottom: 200px;
+  margin-bottom: 150px;
   width: 20%;
   box-shadow: 7px 7px 8px black;
 }
@@ -95,4 +95,8 @@ ol, ul {
   width: 150px;
   height: 70px;
   box-shadow: 4px 4px 7px black;
+}
+
+#workshopLink {
+  color: rgb(207, 97, 202);
 }
