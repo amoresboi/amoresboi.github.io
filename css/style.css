@@ -16,27 +16,58 @@ body {
 
 #sidebar {
   float: left;
-  width: 12%;
-  /*height:262vh;*/
+  width: 20%;
   background-color: #2a2e4f;
-  /*position: absolute;*/
+  padding: 10px 0 0 0;
+  display: block;
 }
 
-#sidebarSpan a, #contactSection {
+#sidebar a{
   color: rgb(229, 177, 34);
+  display: block;
   font-family: Palatino;
+  padding: 8px 1px;
+  padding-left: 0
+  padding-right: 0
   text-decoration: none;
-  /*position: relative;*/
+  text-align: center;
+}
+
+#sidebarUlList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0 0 0;
+  overflow: hidden;
+}
+
+#sidebarUlList li:hover {
+  background-color: #555;
+  padding: 0 0 0 0;
+  color:white;
+}
+
+#sidebarUlList li {
+  text-align: center;
+  border-bottom: 1px solid #555;
+}
+
+#sidebarUlList li:last-child {
+    border-bottom: none;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
 }
 
 #content {
   clear: top;
-  width: 88%;
+  width: 75%;
   float: right;
   padding-top: 10px;
 }
 
-.navSpan, .pHeaders {
+.pHeaders, #contactSection{
   color: rgb(229, 177, 34);
   font-family: Palatino;
 }
@@ -52,7 +83,7 @@ h1 {
   font-family: Palatino;
 }
 
-p, ol, ul  {
+p, #hobbyList, #goalsList  {
   color: rgb(222, 228, 232);
   font-family: Palatino;
   align-content: center;

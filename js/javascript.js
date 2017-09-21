@@ -3,8 +3,8 @@ $(document).ready(function() {
      var height2 = $('body').height()
 
      if (height1 > height2) {
-         $('#sidebar').height(height1)
+         $('#sidebarUlList').height(height1)
      } else {
-         $('#sidebar').height(height2)
+         $('#sidebarUlList').height(height2)
      }
 });
