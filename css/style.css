@@ -1,51 +1,43 @@
 body {
-  <--! background-color: rgb(69, 72, 73);
-  -->border: 8px solid black;
-  padding: 8px;
-  margin: 8px;
+  background-color: rgb(69, 72, 73);
+  border: 4px solid black;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0;
+  padding-top: 0px;
+  margin: 10px;
   background-attachment: fixed;
   background-image: url("../images/dean-hayton-136567.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  float: right;
 }
 
 #sidebar {
   float: left;
-  width: 20%;
+  width: 12%;
+  height:262vh;
+  background-color: #2a2e4f;
+  position: relative;
 }
 
-#sidebarSpan a {
+#sidebarSpan a, #contactSection {
   color: rgb(229, 177, 34);
   font-family: Palatino;
   text-decoration: none;
+  font-size: 20px;
+
 }
 
 #content {
   clear: top;
-  width: 90%;
+  width: 88%;
+  float: right;
+  padding-top: 10px;
 }
 
-/*.sidebarHeaders {
-  color: rgb(229, 177, 34);
-  text-align: center;
-  font-family: Palatino;
-}*/
-
-.navSpan {
-  color: rgb(229, 177, 34);
-  /*font-size: 25px;*/
-  text-align: center;
-  font-family: Palatino;
-}
-
-h1 {
-  color: rgb(229, 177, 34);
-  text-align: center;
-  font-family: Palatino;
-}
-
-.pHeaders {
+.navSpan, .pHeaders {
   color: rgb(229, 177, 34);
   font-family: Palatino;
 }
@@ -55,11 +47,17 @@ h1 {
   font-family: Palatino;
 }
 
-p {
+h1 {
+  color: rgb(229, 177, 34);
+  text-align: center;
+  font-family: Palatino;
+}
+
+p, ol, ul  {
   color: rgb(222, 228, 232);
   font-family: Palatino;
-  /*font-size: 18px;*/
   align-content: center;
+  text-align: justify;
 }
 
 #projectsTable {
@@ -68,7 +66,6 @@ p {
   border-collapse: collapse;
   color: rgb(222, 228, 232);
   font-family: Palatino;
-  /*font-size: 18px;*/
   margin-bottom: 100px;
 }
 
@@ -79,7 +76,7 @@ p {
   color: white;
 }
 
-#projectsTable td, #projects th {
+#projectsTable td, #projectsTable th {
   border: 1px solid #ddd;
   padding: 8px;
 }
@@ -88,18 +85,9 @@ p {
   background-color: rgba(0, 0, 0, 0.09);
 }
 
-ol, ul {
-  color: rgb(222, 228, 232);
-  font-family: Palatino;
-  /*font-size: 18px;*/
-}
-
 #profilePic {
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 150px;
-  /*width: 20%;*/
-  box-shadow: 7px 7px 8px black;
+  margin-bottom: 100px;
+  box-shadow: 6px 6px 7px black;
 }
 
 #betamoreLogo {
@@ -110,4 +98,25 @@ ol, ul {
 
 #workshopLink {
   color: rgb(207, 97, 202);
+}
+
+#navFooter {
+  position: relative;
+  width: 100%;
+  background-color: #2a2e4f;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  float: right;
+}
+
+#navFooter a, #navFooter span {
+  font-family: arial, sans-serif;
+  text-align: center;
+  color: rgb(234, 242, 236);
+  cursor: auto;
+  text-decoration: none;
+}
+
+#navFooter:hover {
+  background-color: #3b3f5d;
 }
