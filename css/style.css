@@ -13,12 +13,12 @@ body {
 #sidebar {
   float: left;
   width: 20%;
-  color: rgb(229, 177, 34);
 }
 
 #sidebarSpan a {
   color: rgb(229, 177, 34);
   font-family: Palatino;
+  text-decoration: none;
 }
 
 #content {
@@ -62,7 +62,7 @@ p {
   align-content: center;
 }
 
-#projects {
+#projectsTable {
   border: 1px solid #ddd;
   padding: 3px;
   border-collapse: collapse;
@@ -72,19 +72,19 @@ p {
   margin-bottom: 100px;
 }
 
-#projects th {
+#projectsTable th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: center;
   color: white;
 }
 
-#projects td, #projects th {
+#projectsTable td, #projects th {
   border: 1px solid #ddd;
   padding: 8px;
 }
 
-#projects tr:hover {
+#projectsTable tr:hover {
   background-color: rgba(0, 0, 0, 0.09);
 }
 
