@@ -17,17 +17,16 @@ body {
 #sidebar {
   float: left;
   width: 12%;
-  height:262vh;
+  /*height:262vh;*/
   background-color: #2a2e4f;
-  position: relative;
+  /*position: absolute;*/
 }
 
 #sidebarSpan a, #contactSection {
   color: rgb(229, 177, 34);
   font-family: Palatino;
   text-decoration: none;
-  font-size: 20px;
-
+  /*position: relative;*/
 }
 
 #content {
